@@ -1,14 +1,16 @@
-x = int(input("Enter the first integer number: "))
-y = int(input("Enter the second integer number: "))
+number_1 = int(input("Enter the first integer number: "))
+number_2 = int(input("Enter the second integer number: "))
 operation = input("Enter the arithmetic operation (+, -, *, /): ")
 
 if operation == "+":
-    print(x+y)
+    result = number_1 + number_2
 elif operation == "-":
-    print(x-y)
+    result = number_1 - number_2
 elif operation == "*":
-    print(x*y)
+    result = number_1 * number_2
 elif operation == "/":
-    print(x/y)
-else:
-    print("Please enter the correct arithmetic operation.")
+    result = number_1 / number_2
+
+print(result)
+
+
